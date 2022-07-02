@@ -1,0 +1,7 @@
+{
+  "name": "ionic-test-julio",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
