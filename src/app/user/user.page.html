@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>User</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card class="container">
+    <ion-card-header>
+      <ion-card-title>Name: {{ user.name }}</ion-card-title>
+      <ion-card-subtitle>Username: {{ user.username }}</ion-card-subtitle>
+    </ion-card-header>
+  
+    <ion-card-content>
+      <ion-list>
+        <ion-item>Email: {{ user.email }}</ion-item>
+        <ion-item>Phone: {{ user.phone }}</ion-item>
+        <ion-item>Website: {{ user.website }}</ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-button class="back" href="home">Back</ion-button>
+</ion-content>
